@@ -42,6 +42,11 @@ const Slides = () => {
 
    return (
       <>
+
+         <div className="heading">
+            Slider (Carousel)
+         </div>
+
          <div className="main" >
             {/* slides sections */}
             <div className="slides" style={{ backgroundImage: `url(${slides[currentIndex].url})` }}>
